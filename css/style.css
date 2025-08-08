@@ -89,6 +89,57 @@ header ul a:hover{
     letter-spacing: 1px;
     line-height: 2rem;
 }
+/* second-part */
+.second-part{
+    height: 100vh;
+    background-color: #eeeeee;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 150px;
+}
+.second-part h1{
+    font-weight: 100;
+    font-size: 2rem;
+    padding-bottom: 30px;
+    margin: 0 20px;
+}
+.second-part ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0 auto;
+}
+.second-part ul li {
+    background: #ffffff;
+    height: 420px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 100;
+
+}
+.second-part ul li p{
+    padding: 15px 0;
+    margin: auto;
+}
+.second-part ul li {
+    padding: 0 0 15px 0;
+    margin: auto;
+}
+.second-part ul li img{
+    width: 370px;
+    
+}
+
+.seperator{
+    border-bottom: 3px solid black ;
+    width: 50px;
+    margin: auto auto 10px auto;
+    
+}
 
 
      

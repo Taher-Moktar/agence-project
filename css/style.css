@@ -33,6 +33,7 @@ overflow: auto;
 line-height: 2em;
 display: flex;
 justify-content:space-between;
+flex-wrap: nowrap;
 }
 header h1{
     color: var(--color-text);
@@ -59,6 +60,7 @@ header ul a:hover{
 .icone{
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     gap: 18px;
 }
 /* partie first-section */
@@ -68,6 +70,7 @@ header ul a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 .content{
     max-width: 800px;
@@ -96,8 +99,8 @@ header ul a:hover{
     font-family: "Quicksand", sans-serif;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
+    flex-wrap: nowrap;
     padding: 150px;
 }
 .second-part h1{
@@ -109,6 +112,7 @@ header ul a:hover{
 .second-part ul{
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     gap: 40px;
     list-style: none;
     margin: 0 auto;
@@ -144,6 +148,7 @@ header ul a:hover{
 .third-part{
     height: 600px;
     display: flex;
+    flex-wrap: nowrap;
     background: #333333;
     text-align: center;
     color: white;
@@ -160,6 +165,7 @@ header ul a:hover{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: nowrap;
     text-align: start;
 }
 .text p{
@@ -174,5 +180,55 @@ header ul a:hover{
     color: yellow;
     font-weight: 100;
 }
+/* forth-part */
+.forth-part{
+    height: 800px;
+    background: #eeeeee;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.comment{
+    height: 150px;
+    width: 80%;
+    margin: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-align: center;
+    padding: 20px;
+    
+}
+.comment img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.commentaire{
+    padding: 30px;
+    font-size: 1.12rem;
+    font-weight: 400;
+    margin-bottom: 15%;
 
+}
+.forth-part  h1{
+ font-size: 2.2rem;
+ font-weight: 100;
+ margin: 50px 0 50px 40px;
+ margin-right: 750px;
+}
+.image:nth-of-type(1){
+    border-radius: 20%;
+    
+}
+.size{
+  width: 50px;
+  border-radius: 50%;
+}
      

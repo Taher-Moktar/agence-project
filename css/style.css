@@ -231,4 +231,71 @@ header ul a:hover{
   width: 50px;
   border-radius: 50%;
 }
-     
+.final-part{
+    height: 700px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final-part h1{
+    color: white;
+
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center; 
+    background-color: #333333;
+    color: #666967;
+    margin: auto auto;
+    width: 100%;
+    height: auto;
+    font-size: 1.3rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+}
+input[type="text"],
+input[type="email"]{
+    border: none;
+    background-color: #333333;
+    border-bottom: 2px solid #666967;
+    
+    width: 500px;
+    height: 100px;
+}
+.final-part button{
+    color:white;
+    background-color: #f1c40f;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.final-part button:hover{
+    background-color:  red;
+    
+}
+.formulaire span{
+    color: yellow;
+    font-weight: 100;
+     font-family: "Quicksand", sans-serif;
+}  
+.formulaire h1{
+    margin-right: 300px;
+
+}  
+footer{
+    background: #444444;
+    height: 150px;
+    font-size: 1.1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

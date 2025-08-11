@@ -140,6 +140,39 @@ header ul a:hover{
     margin: auto auto 10px auto;
     
 }
+/* third part */
+.third-part{
+    height: 600px;
+    display: flex;
+    background: #333333;
+    text-align: center;
+    color: white;
 
+}
+.third-part img{
+    width: 700px;
+    height: auto;
+}
+.text{
+    background: #333333;
+    margin: auto 47px;
+    font-size: 18px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+.text p{
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 1.4rem;
+    /* text-align: center; */
+}
+.text h1 span{
+    font-family: "Quicksand", sans-serif;
+    color: yellow;
+    font-weight: 100;
+}
 
      
